@@ -1,0 +1,15 @@
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\eka1c.exe
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\eka1c.deps.json
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\eka1c.runtimeconfig.json
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\eka1c.dll
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\ref\eka1c.dll
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\bin\Debug\net6.0\eka1c.pdb
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.csproj.AssemblyReference.cache
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.GeneratedMSBuildEditorConfig.editorconfig
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.AssemblyInfoInputs.cache
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.AssemblyInfo.cs
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.csproj.CoreCompileInputs.cache
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.dll
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\ref\eka1c.dll
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.pdb
+S:\Koodia\Olio-ohjelmointi\C#\eka1c\obj\Debug\net6.0\eka1c.genruntimeconfig.cache
