@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "yhdistystehtava/1.0.0": {
+        "dependencies": {
+          "Classilibrary": "1.0.0"
+        },
+        "runtime": {
+          "yhdistystehtava.dll": {}
+        }
+      },
+      "Classilibrary/1.0.0": {
+        "runtime": {
+          "Classilibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "yhdistystehtava/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Classilibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
