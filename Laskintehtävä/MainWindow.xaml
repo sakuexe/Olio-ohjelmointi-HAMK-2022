@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Laskin tehtävä - Saku Karttunen" Height="500" Width="300" FontSize="14" Background="Black" WindowStyle="ThreeDBorderWindow">
+
+    <Grid Background="#FF141415">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="Screen" HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="256" Background="#FF313131" FontFamily="Franklin Gothic Medium" FontWeight="Normal" FontStyle="Normal" FontSize="30" TextAlignment="Left" Padding="5,0,5,3" RenderTransformOrigin="0.5,0.5" Foreground="#FFF1F1F1" TextTrimming="None" FontStretch="Normal" LineStackingStrategy="MaxHeight" LineHeight="6"><Run Language="fi-fi" Text="0"/></TextBlock>
+        <Grid HorizontalAlignment="Center" Height="320" Margin="0,118,0,0" VerticalAlignment="Top" Width="256">
+            <Button x:Name="Seven" Content="7" Height="60" Width="60" Click="Seven_Click" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" VerticalAlignment="Top" Margin="0,65,0,0" HorizontalAlignment="Left"/>
+            <Button x:Name="Eight" Content="8" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" VerticalAlignment="Top" Margin="65,65,0,0" HorizontalAlignment="Left" Click="Eight_Click"/>
+            <Button x:Name="Nine" Content="9" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" VerticalAlignment="Top" Margin="130,65,0,0" HorizontalAlignment="Left" Click="Nine_Click"/>
+            <Button x:Name="Division" Content="/" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" VerticalAlignment="Top" Margin="130,0,0,0" HorizontalAlignment="Left" Click="Division_Click"/>
+            <Button x:Name="Four" Content="4" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" VerticalAlignment="Center" HorizontalAlignment="Left" Click="Four_Click"/>
+            <Button x:Name="Five" Content="5" Height="60" Width="60" VerticalAlignment="Center" Margin="65,0,0,0" HorizontalAlignment="Left" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Five_Click"/>
+            <Button x:Name="Six" Content="6" HorizontalAlignment="Left" Margin="130,0,0,0" VerticalAlignment="Center" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Six_Click"/>
+            <Button x:Name="One" Content="1" HorizontalAlignment="Left" Margin="0,195,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="One_Click"/>
+            <Button x:Name="Two" Content="2" HorizontalAlignment="Left" Margin="65,195,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Two_Click"/>
+            <Button x:Name="Three" Content="3" HorizontalAlignment="Left" Margin="130,195,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Three_Click"/>
+            <Button x:Name="Times" Content="*" HorizontalAlignment="Left" Margin="196,0,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Times_Click"/>
+            <Button x:Name="Plus" Content="+" HorizontalAlignment="Left" Margin="196,0,0,0" VerticalAlignment="Center" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Plus_Click"/>
+            <Button x:Name="Zero" Content="0" HorizontalAlignment="Left" Margin="0,260,0,0" VerticalAlignment="Top" Height="60" Width="125" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Zero_Click"/>
+            <Button x:Name="Minus" Content="-" HorizontalAlignment="Left" Margin="196,65,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Minus_Click"/>
+            <Button x:Name="Equals" Content="=" Height="125" Width="60" VerticalAlignment="Top" Margin="196,195,0,0" HorizontalAlignment="Left" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Equals_Click"/>
+            <Button x:Name="Clear" Content="CE" Height="60" Width="125" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Clear_Click"/>
+            <Button x:Name="Backspace" Content="DEL" Height="60" Width="60" VerticalAlignment="Top" Margin="130,260,0,0" HorizontalAlignment="Left" Background="#FF313131" Foreground="#FFEAEAEA" BorderBrush="#7F707070" Click="Backspace_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
