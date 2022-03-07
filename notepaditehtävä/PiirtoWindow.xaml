@@ -1,0 +1,16 @@
+﻿<Window x:Class="notepaditehtävä.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:notepaditehtävä"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="PiirtoCanvas" Margin="0,0,400,0" Background="#FFBBAEC3" MouseLeftButtonDown="PiirtoCanvas_MouseLeftButtonDown" MouseMove="PiirtoCanvas_MouseMove">
+            <Ellipse x:Name="Ellipse1" Height="100" Canvas.Left="150" Stroke="Black" Canvas.Top="167" Width="100" Fill="#FF9074AD"/>
+        </Canvas>
+        <Button x:Name="ActivityButton" Content="Button" HorizontalAlignment="Left" Margin="559,104,0,0" VerticalAlignment="Top" Height="34" Width="68" Click="ActivityButton_Click"/>
+        <InkCanvas Margin="400,177,0,0"/>
+    </Grid>
+</Window>

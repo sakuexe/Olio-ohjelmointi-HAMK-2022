@@ -1,0 +1,31 @@
+﻿<Window x:Class="notepaditehtävä.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:notepaditehtävä"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem x:Name="MenuOpen" Header="_Open..." Click="MenuOpen_Click"/>
+                <MenuItem x:Name="SaveBtn" Header="Save..." Click="SaveBtn_Click"/>
+                <MenuItem x:Name="PrintBtn" Header="_Print..." Click="PrintBtn_Click"/>
+                <MenuItem x:Name="TokaSivu" Header="_DrawingTest" Click="TokaSivu_Click"/>
+                <Separator/>
+                <MenuItem x:Name="exitmenu" Header="E_xit" Click="exitmenu_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Edit">
+                <MenuItem Header="_Copy" Command="ApplicationCommands.Copy"/>
+                <MenuItem Header="_Paste" Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+            <MenuItem Header="_Format">
+                <MenuItem x:Name="FontPage" Header="_Font..." Click="FontPage_Click"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <TextBox x:Name="textBox" AcceptsReturn="True" AcceptsTab="True" FontSize="14" x:FieldModifier="public"/>
+        </Grid>
+    </DockPanel>
+</Window>

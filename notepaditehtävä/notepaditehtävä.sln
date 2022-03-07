@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notepaditehtävä", "notepaditehtävä.csproj", "{B12BF60C-2F1F-403B-9442-ADB34FEA2C34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12BF60C-2F1F-403B-9442-ADB34FEA2C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12BF60C-2F1F-403B-9442-ADB34FEA2C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12BF60C-2F1F-403B-9442-ADB34FEA2C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12BF60C-2F1F-403B-9442-ADB34FEA2C34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF91E01-B436-46B6-8277-7DC07658E341}
+	EndGlobalSection
+EndGlobal
